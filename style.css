@@ -1,0 +1,47 @@
+.header {
+  width: 280px; /* Larghezza del contenuto */
+  height: 280px; /* Altezza del contenuto */
+  padding: 20px; /* Spazio tra contenuto e bordo */
+  border: 5px solid black; /* Bordo (spessore, stile, colore) */
+  margin: 25px; /* Spazio esterno tra questo box e altri elementi */
+  background: #4e96ad;
+  background: linear-gradient(
+    180deg,
+    rgba(78, 150, 173, 1) 22%,
+    rgba(54, 134, 158, 1) 44%,
+    rgba(34, 113, 135, 1) 62%
+  ); /* Colore di sfondo (si estende fino al bordo) */
+}
+header p {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+header a {
+  font-size: 20px;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+header ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+}
+.epicode-logo {
+  width: 270px;
+  height: 150px;
+}
+
+.main {
+  width: 280px; /* Larghezza del contenuto */
+  height: 1150px; /* Altezza del contenuto */
+  padding: 20px; /* Spazio tra contenuto e bordo */
+  border: 5px solid black; /* Bordo (spessore, stile, colore) */
+  margin: 25px; /* Spazio esterno tra questo box e altri elementi */
+}
+.video {
+  width: 303;
+  height: 153;
+}
