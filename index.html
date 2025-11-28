@@ -3,7 +3,6 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile." />
 
     <link rel="stylesheet" type="text/css" href="reset.css" />
@@ -13,15 +12,13 @@
   </head>
   <body>
     <header>
-      <div class="header">
-        <img class="epicode-logo" src="./img/logo.svg" alt="Epicode-logo" />
-        <p>Epicode - Il blog dei developers</p>
-        <ul>
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>Articoli</li></a>
-          <a href="#"><li>Lavora con noi</li></a>
-        </ul>
-      </div>
+      <img class="epicode-logo" src="assets/logo.svg" alt="Epicode-logo" />
+      <p>Epicode - Il blog dei developers</p>
+      <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Articoli</li></a>
+        <a href="#"><li>Lavora con noi</li></a>
+      </ul>
     </header>
 
     <main class="main">
@@ -29,8 +26,8 @@
         <h1>Come creare un template per i post</h1>
         <p>di Mario Rossi - pubblicato il 25-10-2020</p>
         <p>
-          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.<br />Le varie aree
-          saranno quindi suddivise in:
+          La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le <span class="first-span">parti comuni</span> da applicare a tutte le
+          pagine.<br />Le varie aree saranno quindi suddivise in:
         </p>
 
         <ul>
@@ -93,18 +90,19 @@
         scopo.
       </p>
       <p>Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
-      <iframe class="video">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/sOnsyLAXfSI?si=vf6XXb_QEDSsXbBJ"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
+      <iframe
+        class="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/sOnsyLAXfSI?si=vf6XXb_QEDSsXbBJ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
       </iframe>
+
       <div>
         <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter!</p>
         <form id="newsletter">
@@ -126,12 +124,10 @@
         <p>Data: 30-9-2020</p>
       </div>
     </main>
-    <div>
-      <footer>
-        Blog Epicode ©2023 <br />Testata online di Mario Rossi, <br />registrata con prot. n.213/2018-<br />via Luigi Einaudi 2  Milano.<br />
-        P.IVA 00112233.
-        <a href="mailto:info@epicode.school" alt="mail a Epicode"><br />info@epicode.school</a>
-      </footer>
-    </div>
+    <footer class="footer">
+      <p>Blog Epicode ©2021</p>
+      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018- via Luigi Einaudi 2  Milano.</p>
+      P.IVA 00112233.<a href="mailto:info@epicode.school" alt="mail a Epicode"><info@epicode.school</a>
+    </footer>
   </body>
 </html>

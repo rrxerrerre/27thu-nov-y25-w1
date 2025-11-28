@@ -1,16 +1,10 @@
-.header {
-  width: 280px; /* Larghezza del contenuto */
-  height: 280px; /* Altezza del contenuto */
-  padding: 20px; /* Spazio tra contenuto e bordo */
-  border: 5px solid black; /* Bordo (spessore, stile, colore) */
-  margin: 25px; /* Spazio esterno tra questo box e altri elementi */
+body {
+  padding: 1rem;
+}
+header {
+  padding: 20px;
   background: #4e96ad;
-  background: linear-gradient(
-    180deg,
-    rgba(78, 150, 173, 1) 22%,
-    rgba(54, 134, 158, 1) 44%,
-    rgba(34, 113, 135, 1) 62%
-  ); /* Colore di sfondo (si estende fino al bordo) */
+  background: linear-gradient(180deg, rgba(78, 150, 173, 1) 22%, rgba(54, 134, 158, 1) 44%, rgba(34, 113, 135, 1) 62%);
 }
 header p {
   font-size: 20px;
@@ -35,13 +29,23 @@ header ul {
 }
 
 .main {
-  width: 280px; /* Larghezza del contenuto */
-  height: 1150px; /* Altezza del contenuto */
-  padding: 20px; /* Spazio tra contenuto e bordo */
-  border: 5px solid black; /* Bordo (spessore, stile, colore) */
-  margin: 25px; /* Spazio esterno tra questo box e altri elementi */
+  padding: 20px;
+  border: 5px solid transparent;
+  margin: 25px;
+  box-shadow: 12px -18px 43px -3px rgba(0, 0, 0, 0.1);
+}
+.first span {
+  color: purple;
 }
 .video {
-  width: 303;
-  height: 153;
+  max-width: 280px;
+  width: 270px;
+  height: 153px;
+  border-radius: 20px;
+}
+.footer {
+  width: 280px;
+  height: 280px;
+  padding: 20px;
+  margin: 25px;
 }
