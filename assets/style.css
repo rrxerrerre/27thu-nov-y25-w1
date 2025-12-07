@@ -1,6 +1,6 @@
 body {
   padding: 15px;
-  background-image: url(assets/sfondo.png);
+  background-image: url(/assets/sfondo.png);
   background-repeat: repeat;
   font-family: "Font Awesome 6 Free";
 }
@@ -64,6 +64,9 @@ header ul {
 .second-span {
   color: purple;
 }
+caption {
+  font-weight: bold;
+}
 .table-stl {
   width: 90%;
   border-bottom: 1px solid #3366cc;
@@ -85,9 +88,9 @@ header ul {
   height: 40px;
   background-color: #f0f0f0;
 }
-.tool-online {
+/*.tool-online {
   margin: ;
-}
+}*/
 .video {
   max-width: 400px;
   width: 321px;
@@ -121,17 +124,13 @@ header ul {
   text-align: center;
 }
 
-.correlati-1 {
-  background-color: #e2e1e3;
-  border: 1px solid darkgrey;
-  margin-bottom: 15px;
-}
 #h5-categoria {
   margin-bottom: 5px;
   margin-left: 20px;
 }
 #a-correlati {
   margin-bottom: 0px;
+  color: #04a2c6;
 }
 #p-data {
   text-align: end;
@@ -140,6 +139,11 @@ header ul {
 #categoria {
   margin-top: 2px;
   margin-left: 20px;
+}
+.correlati-1 {
+  background-color: #e2e1e3;
+  border: 1px solid darkgrey;
+  margin-bottom: 15px;
 }
 .correlati-2 {
   background-color: #e2e1e3;
@@ -171,12 +175,13 @@ header ul {
 .footer-p2 {
   padding: 10px;
   margin: 0px;
+  padding-bottom: 0px;
 }
 .footer-p3 {
-  mar
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
 }
 .third-span {
-  color: purple;
-  text-decoration: none;
-  border-bottom: 1px solid purple;
+  color: #d025bf;
 }
