@@ -22,7 +22,7 @@
     </header>
 
     <main class="main">
-      <div>
+      <div class="white-box">
         <h1>Come creare un template per i post</h1>
         <p>di Mario Rossi - pubblicato il 25-10-2020</p>
         <p>
@@ -31,14 +31,17 @@
         </p>
         <p>Le varie aree saranno quindi suddivise in:</p>
 
-        <ul>
-          <li>Contenuti di intestazione del tag &ltheader&gt</li>
-          <li>Contenuti centrali variabili del tag &ltmain&gt (corpo principale)</li>
-          <li>Contenuti di fine pagina comuni, da inserire nel tag &ltfooter&gt</li>
+        <ul class="ul-gray">
+          <li>Contenuti di intestazione del tag <span class="gray-span">&ltheader&gt</span></li>
+          <li>Contenuti centrali variabili del tag <span class="gray-span">&ltmain&gt</span> (corpo principale)</li>
+          <li>Contenuti di fine pagina comuni, da inserire nel tag <span class="gray-span">&ltfooter&gt</span></li>
         </ul>
 
         <h2>Formattazione del codice</h2>
-        <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò i passi saranno:</p>
+        <p>
+          Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da <bold><span class="second-span">selezionare con i CSS</span></bold
+          >. Perciò i passi saranno:
+        </p>
 
         <ol>
           <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
@@ -47,50 +50,49 @@
         </ol>
         <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
       </div>
-      <table>
+      <table class="table-stl">
         <caption>
           Diffusione dei CSS
         </caption>
         <thead>
           <tr>
-            <th scope="col">Anno</th>
-            <th scope="col">% di utilizzo</th>
-            <th scope="col">Supporto browser</th>
+            <th class="blue-tr" scope="col">Anno</th>
+            <th class="blue-tr" scope="col">% di utilizzo</th>
+            <th class="blue-tr" scope="col">Supporto browser</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr id="layer">
             <th scope="row">2000</th>
             <td>20%</td>
             <td>17%</td>
           </tr>
-          <tr>
+          <tr class="th-2002">
             <th scope="row">2002</th>
             <td>36%</td>
             <td>22%</td>
           </tr>
-          <tr>
+          <tr id="layer">
             <th scope="row">2004</th>
             <td>45%</td>
             <td>42%</td>
           </tr>
-          <tr>
+          <tr class="th-2008">
             <th scope="row">2008</th>
             <td>80%</td>
             <td>51%</td>
           </tr>
-          <tr>
+          <tr id="layer">
             <th scope="row">2012</th>
             <td>100%</td>
             <td>76%</td>
           </tr>
         </tbody>
       </table>
-      <p>
-        Un test di validazione potrà essere fatto tramite il <em>tool online</em> <a href="https://epicode.com/it/" target="_blank">epicode</a> dedicato allo
-        scopo.
+      <p class="tool-online">
+        Un test di validazione potrà essere fatto tramite il <a href="https://epicode.com/it/" target="_blank"><em>tool online</em></a> dedicato allo scopo. Una
+        volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:
       </p>
-      <p>Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:</p>
       <iframe
         class="video"
         width="560"
@@ -104,31 +106,39 @@
       >
       </iframe>
 
-      <div>
+      <div class="novità">
+        <h3>NOVITÀ</h3>
         <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter!</p>
-        <form id="newsletter">
-          <label for="email">Email: </label>
-          <input type="email" name="email" placeholder="info@epicode" id="useremail" />
-          <button type="submit">Iscriviti!</button>
+        <form class="input" id="newsletter">
+          <input type="email" name="email" placeholder="inserisci l'email" id="useremail" />
+          <button class="blue-button" type="submit">Iscriviti!</button>
         </form>
       </div>
-      <div>
-        <h4>Articoli correlati</h4>
-        <a href="#"><h5>Validare il codice HTML</h5></a>
-        <p>Categoria: develop</p>
-        <p>Data: 18-9-2020</p>
-        <a href="#"><h5>Correggere la sintassi</h5></a>
-        <p>Categoria: develop</p>
-        <p>Data: 16-9-2020</p>
-        <a href="#"><h5>Kb nella pagina</h5></a>
-        <p>Categoria: ottimizzazione</p>
-        <p>Data: 30-9-2020</p>
+      <div class="correlati">
+        <h3>ARTICOLI CORRELATI</h3>
+        <div class="correlati-1">
+          <a id="a-correlati" href="#"><h5 id="h5-categoria">Validare il codice HTML</h5></a>
+          <p id="categoria">Categoria: develop</p>
+          <p id="p-data">Data: 18-9-2020</p>
+        </div>
+        <div class="correlati-2">
+          <a id="a-correlati" href="#"><h5 id="h5-categoria">Correggere la sintassi</h5></a>
+          <p id="categoria">Categoria: develop</p>
+          <p id="p-data">Data: 16-9-2020</p>
+        </div>
+        <div class="correlati-3">
+          <a id="a-correlati" href="#"><h5 id="h5-categoria">Kb nella pagina</h5></a>
+          <p id="categoria">Categoria: ottimizzazione</p>
+          <p id="p-data">Data: 30-9-2020</p>
+        </div>
       </div>
     </main>
     <footer class="footer">
-      <p>Blog Epicode ©2021</p>
-      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018- via Luigi Einaudi 2  Milano.</p>
-      P.IVA 00112233.<a href="mailto:info@epicode.school" alt="mail a Epicode"><info@epicode.school</a>
+      <p class="footer-p1">Blog Epicode ©2021</p>
+      <p class="footer-p2">Testata online di Mario Rossi, registrata con prot. n.213/2018- via Luigi Einaudi 2  Milano.</p>
+      <p class="footer-p3">
+        P.IVA 00112233.<a href="mailto:info@epicode.school" alt="mail a Epicode"><span class="third-span">info@epicode.school</span></a>
+      </p>
     </footer>
   </body>
 </html>
